@@ -1,8 +1,6 @@
+
 import java.util.Scanner;
-
 public class sumnatural {
-
-}
 
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -30,4 +28,5 @@ public static void main(String[] args) {
     } else {
         System.out.println("There is a mismatch in the results.");
     }
+}
 }

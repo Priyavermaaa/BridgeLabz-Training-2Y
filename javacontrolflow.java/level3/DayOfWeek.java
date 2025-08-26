@@ -21,17 +21,24 @@ public class DayOfWeek {
 
         if (d0 == 0) {
             System.out.println("Day of week: Sunday");
-        } else if (d0 == 1) {
+        } 
+        
+        else if (d0 == 1) {
             System.out.println("Day of week: Monday");
-        } else if (d0 == 2) {
+        } 
+        else if (d0 == 2) {
             System.out.println("Day of week: Tuesday");
-        } else if (d0 == 3) {
+        }
+         else if (d0 == 3) {
             System.out.println("Day of week: Wednesday");
-        } else if (d0 == 4) {
+        } 
+        else if (d0 == 4) {
             System.out.println("Day of week: Thursday");
-        } else if (d0 == 5) {
+        } 
+        else if (d0 == 5) {
             System.out.println("Day of week: Friday");
-        } else {
+        }
+         else {
             System.out.println("Day of week: Saturday");
         }
 

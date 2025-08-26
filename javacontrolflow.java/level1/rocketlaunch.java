@@ -1,12 +1,14 @@
-import java.util.*;
 
-public class rocketlaunch2 {
+import java.util.Scanner;
+
+public class rocketlaunch {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner (System.in);
         System.out.print("Enter the countdown time in seconds: ");
         int count = sc.nextInt();
-        for ( ;count >= 1; count--) {
+        while (count >= 1) {
             System.out.println(count);
+            count--;
         }
     }
 }

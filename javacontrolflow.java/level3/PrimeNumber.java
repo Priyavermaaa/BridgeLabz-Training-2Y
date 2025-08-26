@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = sc.nextInt();
 
         boolean isPrime = true;
 
